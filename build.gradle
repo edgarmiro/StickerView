@@ -26,8 +26,3 @@ allprojects {
 task clean(type: Delete) {
   delete rootProject.buildDir
 }
-
-ext {
-  supportLibraryVersion = '25.3.1'
-  photoViewVersion = 'v1.2.5'
-}
